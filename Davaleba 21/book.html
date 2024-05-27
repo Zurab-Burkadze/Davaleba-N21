@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Library Catalog - {{ book.title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ book.title }}</h1>
+    <p><strong>Author:</strong> {{ book.author }}</p>
+    <p><strong>Year:</strong> {{ book.year }}</p>
+{% endblock %}
